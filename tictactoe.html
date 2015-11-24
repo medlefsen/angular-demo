@@ -1,0 +1,8 @@
+<button ng-click="reset()">Reset</button>
+<span ng-if="winner">
+  <strong><span class="player">{{winner}}</span> Wins</strong>
+</span>
+<span ng-if="!winner">
+  <strong>next move:</strong> <span class="player">{{next}}</span>
+</span>
+<board size="{{size}}" next="{{next}}" state="state"></board>

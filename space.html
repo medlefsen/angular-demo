@@ -1,0 +1,5 @@
+<div ng-switch="state">
+  <x ng-switch-when="x" color="green" size="{{size}}"></x>
+  <o ng-switch-when="o" color="red" size="{{size}}"></o>
+  <svg ng-switch-default ng-attr-height="{{size}}" ng-attr-width="{{size}}" ng-click="changeState()"></svg>
+</div>

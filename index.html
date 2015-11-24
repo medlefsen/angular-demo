@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="ticTacToe">
+  <head>
+    <title>Tic Tac Toe</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+    <script src="app.js"></script>
+    <style>
+      space {
+        display: inline-block;
+      }
+      board .row-edge {
+        border-bottom: 1px black solid;
+      }
+      board .col-edge {
+        border-right: 1px black solid;
+      }
+      tictactoe .player {
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <tictactoe size="300"></tictactoe>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+<div ng-repeat="row in [0,1,2]">
+  <space ng-class="{'row-edge': row<2, 'col-edge': col<2}" ng-repeat="col in [0,1,2]"
+         size="{{size/3}}" next="{{next}}" state="state[row*3+col]"></space>
+</div>
